@@ -1,0 +1,16 @@
+name: RandomChest
+author: Mig50
+version: 1.0
+main: me.Mig50.RandomChest.RandomChest
+description: Generates a random chest in the map and announces it in the chat
+
+commands:
+  randomchest:
+    usage: /<command>
+  teste:
+    usage: /<command>
+
+permissions:
+  randomchest.spawn:
+    description: this permission allows someone to spawn a chest
+    default: op  
